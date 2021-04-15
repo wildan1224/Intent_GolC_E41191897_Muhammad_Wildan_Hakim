@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+
+    <Button
+        android:id="@+id/btn_move_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/move_activity"
+        />
+
+    <Button
+        android:id="@+id/btn_move_activity_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Pindah Activity Dengan Data" />
+
+    <Button
+        android:id="@+id/btn_move_activity_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Pindah Activity Dengan Object" />
+
+    <Button
+        android:id="@+id/btn_dial_a_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Dial a Number" />
+
+    <Button
+        android:id="@+id/btn_maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Intent Maps ( ke arah POLIJE )" />
+
+    <Button
+        android:id="@+id/btn_share_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Intent Share Text" />
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Intent Kirim SMS" />
+
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Ambil Kontak Phone" />
+
+    <Button
+        android:id="@+id/btn_activity_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Pindah Activity Result" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:gravity="center"
+        android:text="Hasil dari Activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
